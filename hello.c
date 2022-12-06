@@ -21,13 +21,13 @@
 
 int init_module(void)
 {
-	printk("Hello World!\n");
+	printk("Executing init_module\n");
 	return 0;
 }
 
 void cleanup_module(void)
 {
-	printk("Goodbye Cruel World!\n");
+	printk("Executing cleaup_module\n");
 }
 
 MODULE_LICENSE("GPL");
